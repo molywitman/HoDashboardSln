@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html  data-ng-app="dashborad" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link href="Content/bootstrap/css/bootstrap.css" rel="stylesheet" />
+        <script type='text/javascript' src='https://www.google.com/jsapi'></script>
+        <script src="Scripts/angular.js"></script>
+        <script src="Scripts/AngularUI/ui-router.js"></script>
+        <script src="App/factorries/Factorries.js"></script>
+        <script src="App/directives/directives.js"></script>
+        <script src="App/App.js"></script>
+        <title>Dashborad</title>
+    </head>
+<body>
+    
+   
+    <!-- <ho-gauge  height="300" width="200"  > </ho-gauge>-->
+    
+    <div >
+        <div >
+            
+            <h1 align ="center"   > <font color="red">רשת רמי כהן - לוח בקרה מקוון</font></h1>
+            <table border="0">
+                <tr>
+                    <td><gauge-frame width="250" height="251" id="0"> </gauge-frame></td>
+                    <td><gauge-frame width="180" height="181" id="2"> </gauge-frame></td>
+                    <td><gauge-frame width="180" height="181" id="3"> </gauge-frame></td>
+                    <td><gauge-frame width="180" height="181" id="1"> </gauge-frame></td>
+                    <td><gauge-frame width="180" height="181" id="4"> </gauge-frame></td>
+                    <td><gauge-frame width="180" height="181" id="5"> </gauge-frame></td>
+                </tr>
+            
+            </table>
+            
+            
+            <table>
+                <tr>
+                    <td><pie-chart    id="22" ></pie-chart></td>
+                    <td><div  style="width:400px;height:250px" ></div></td>
+                    <td><column-chart id="55" ></column-chart></td>
+                </tr>
+            </table>
+
+            <!--   <gauge-frame  height="300" width="200"  > </gauge-frame>-->
+            <!--    <gauge-frame  height="300" width="200"  > </gauge-frame>-->
+        </div>
+    </div>
+   
+</body>
+</html>
